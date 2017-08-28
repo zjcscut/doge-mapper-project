@@ -41,7 +41,7 @@
           <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-compiler-plugin</artifactId>
-              <version>${maven.compiler.plugin.version}</version>
+              <version>3.6.1</version>
               <extensions>true</extensions>
               <configuration>
                   <source>1.8</source>
