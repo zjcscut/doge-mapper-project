@@ -1,1 +1,10 @@
-INSERT INTO t_order(id,order_id) VALUES (1,'orderId-001');
+INSERT INTO t_order(id,order_id,amount) VALUES (1,'orderId-001',10000);
+INSERT INTO t_order(id,order_id,amount) VALUES (2,'orderId-002',10000);
+INSERT INTO t_order(id,order_id,amount) VALUES (3,'orderId-003',10000);
+INSERT INTO t_order(id,order_id,amount) VALUES (4,'orderId-004',10000);
+INSERT INTO t_order(id,order_id,amount) VALUES (5,'orderId-005',10000);
+INSERT INTO t_order(id,order_id,amount) VALUES (6,'orderId-006',10000);
+INSERT INTO t_order(id,order_id,amount) VALUES (7,'orderId-007',10000);
+INSERT INTO t_order(id,order_id,amount) VALUES (8,'orderId-008',10000);
+INSERT INTO t_order(id,order_id,amount) VALUES (9,'orderId-009',10000);
+INSERT INTO t_order(id,order_id,amount) VALUES (10,'orderId-010',10000);

@@ -18,6 +18,8 @@ public class Order {
 	private Long id;
 	@Column(value = "order_id")
 	private String orderId;
+	@Column(value = "amount")
+	private Integer amount;
 
 	public Long getId() {
 		return id;
@@ -35,11 +37,20 @@ public class Order {
 		this.orderId = orderId;
 	}
 
+	public Integer getAmount() {
+		return amount;
+	}
+
+	public void setAmount(Integer amount) {
+		this.amount = amount;
+	}
+
 	@Override
 	public String toString() {
 		return "Order{" +
 				"id=" + id +
 				", orderId='" + orderId + '\'' +
+				", amount=" + amount +
 				'}';
 	}
 }

@@ -6,8 +6,9 @@ doge-mapper:
   mapperLocations: classpath:mappings/*.xml
   typeAliasesPackage: org.throwable.entity
   enablePaginationPlugin: true
+  enableSqlStatisticsPlugin: true
 spring:
   datasource:
     platform: h2
     schema: classpath:schema/schema.sql
-    data: classpath:data/data.sql
+    data: classpath:data/data.sql    
